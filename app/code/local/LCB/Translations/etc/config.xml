@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LCB_Translations>
+            <version>1.0.0</version>
+        </LCB_Translations>
+    </modules>
+    <global>
+        <helpers>
+            <lcb_translations>
+                <class>LCB_Translations_Helper</class>
+            </lcb_translations>
+        </helpers>
+        <models>
+            <lcb_translations>
+                <class>LCB_Translations_Model</class>
+            </lcb_translations>
+        </models>
+    </global>
+</config>

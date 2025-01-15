@@ -1,0 +1,18 @@
+{
+    "name": "lcbrq/openmage-auto-translations",
+    "license": ["proprietary"],
+    "type": "magento-module",
+    "description": "Automatic translations for OpenMage entities.",
+    "require": {
+        "php-http/guzzle6-adapter": "^2.0",
+        "http-interop/http-factory-guzzle": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "magento-root-dir": "test/"
+    }
+}

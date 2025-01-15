@@ -1,0 +1,3 @@
+app/code/local/LCB/Translations
+app/etc/modules/LCB_Translations.xml
+shell/lcb-translate-categories.php
